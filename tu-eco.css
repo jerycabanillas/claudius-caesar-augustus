@@ -1,0 +1,56 @@
+body{
+background-color: #15171E;
+}
+
+p{
+  color: whitesmoke;
+  font-family: "Courier Prime", monospace;
+  font-size: 18px;
+  background-color: #3c4051;
+  padding: 10px;
+  max-width: 500px;
+  border-radius: 8px;
+  text-align: center;
+  
+}
+.caja{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;         /* ocupa todo el ancho */
+  margin-top: 60px;    /* separación desde arriba (opcional) */
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #D9D7D7;
+  text-align: center;
+  
+}
+
+.caja2 {
+  display: flex;               /* usamos flex para centrar */
+  justify-content: center;     /* centra horizontalmente */
+  align-items: center;         /* centra verticalmente si tiene altura */
+  margin: 20px auto;           /* separa de otros elementos y centra */
+  background-color: #4a5568;  /* color de fondo */
+  padding: 20px 30px;          /* espacio interno, ajustable */
+  border-radius: 12px;         /* bordes redondeados */
+  max-width: 400px;            /* ancho máximo, cambia según quieras */
+  min-width: 200px;  
+  min-height: 50px;  /* nunca será más baja que esto */
+  max-height: 150px;  /* nunca será más alta que esto */          /* ancho mínimo, opcional */
+  width: 80%;                  /* ancho relativo a la pantalla, ajustable */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15); /* sombra opcional */
+  text-align: center;          /* centra texto dentro */
+  color: whitesmoke;           /* color del texto */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;             /* tamaño de texto ajustable */
+  transition: all 0.3s ease;   /* para animaciones suaves si cambias tamaño */
+}
+
+
+
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
