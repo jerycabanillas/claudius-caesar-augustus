@@ -19,6 +19,9 @@ p{
   align-items: center;
   width: 100%;         /* ocupa todo el ancho */
   margin-top: 60px;    /* separación desde arriba (opcional) */
+  max-width: 500px;  /* En pantallas grandes no pasa de 500px */
+  margin: 20px auto;
+  padding: 20px;
 }
 h1 {
   font-family: 'Times New Roman', Times, serif;
