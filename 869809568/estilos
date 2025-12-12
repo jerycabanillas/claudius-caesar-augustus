@@ -1,0 +1,65 @@
+body{
+    background-color: #15171E;
+    margin: 0;
+    padding: 0;
+    font-family: "Courier Prime", monospace;
+}
+
+/* Contenedor general centrado */
+.contenedor {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Título */
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #D9D7D7;
+    text-align: center;
+}
+
+/* Caja 1 */
+.caja {
+    margin: 25px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.caja p {
+    color: whitesmoke;
+    font-size: 1rem;
+    background-color: #3c4051;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 100%;
+    line-height: 1.4;
+    text-align: center;
+}
+
+/* Caja 2 */
+.caja2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    background-color: #4a5568;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* Texto dentro de caja2 */
+.caja2 h2 {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.4;
+    word-wrap: break-word;     /* clave para móvil */
+}
+
+
