@@ -1,0 +1,42 @@
+/*Peuqeño titlo*/
+h3{
+    text-align: center;
+    font-size: 38px
+}
+/*Contenedor del countdown*/
+.demo{
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 120px;
+    margin: auto;
+}
+/*Elementos de primera linea*/
+.demo p{
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    background: linear-gradient(to top, #005c97, #363795); 
+    margin: 3px;
+    font-size: 32px;
+    padding: 12px;
+    border-radius: 12px;
+    width: 100%;
+    cursor: pointer;
+}
+/*Elementos de segunda linea*/
+.demo p span{
+    font-weight: normal;
+    font-size: 22px;
+}
+/*Clases para cada elemento*/
+/*Clase para elementos de primera linea*/
+.demo .d,
+.demo .h,
+.demo .m,
+.demo .s{}
+/*Clase para elementos de segunda linea*/
+.demo .d span,
+.demo .h span,
+.demo .m span,
+.demo .s span{}
