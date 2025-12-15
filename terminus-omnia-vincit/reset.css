@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/*VIDEO DE FONDO*/
+video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    object-fit: cover;
+}
+/*SUSCRIBETE A SCRIPT CODE*/
+/*SUSCRIBETE A SCRIPT CODE*/
+.suscribete{
+    position: relative;
+    height: 100%;
+}
+.suscribete a{
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 35px;
+    width: 300px;
+    color: aliceblue;
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 4px;
+    animation-duration: 4s;
+    background: linear-gradient(45deg,red 40%,#5411d3,#9711d3);
+    background-size: 400% 400%;
+    animation: example 10s ease-in-out infinite;
+}
+@keyframes example {
+    0%{background-position: 0 50%;}
+	50%{background-position: 100% 50%;}
+	100%{background-position: 0 50%;}
+}
+/*-------------------------------------*/
