@@ -1,21 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Cuenta regresiva con HTML, CSS y JS</title>
-<link rel="stylesheet" href="Style.css">
-<link rel="stylesheet" href="reset.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta atrás</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<!--Pequeño titulo-->
-  <h3>Bienvenidos a Script Code!<br>
-    Suscribete!</h3>
-<!--Contenedor del countdown-->
-  <div id="demo" class="demo"></div> 
-<!--Contenedor visible al finalizar el countdown-->
-  <div id="info" class="info"></div>
-<script type="text/javascript" src="Cuenta atras.js"></script> 
+
+    <div class="fecha">
+        <p>¿Cuánto falta hasta el <span id="fecha">1/1/2025</span>?</p>
+    </div>
+    <div class="cuenta-atras" id="cuenta-atras">
+        <div class="grupo">
+            <p class="grande" id="dias">00</p>
+            <p class="chico">días</p>
+        </div>
+        <div class="grupo">
+            <p class="grande" id="horas">00</p>
+            <p class="chico">horas</p>
+        </div>
+        <div class="grupo">
+            <p class="grande" id="minutos">00</p>
+            <p class="chico">minutos</p>
+        </div>
+        <div class="grupo">
+            <p class="grande" id="segundos">00</p>
+            <p class="chico">segundos</p>
+        </div>
+    </div>
+
+    
+    <script src="main.js"></script>
 </body>
 </html>
